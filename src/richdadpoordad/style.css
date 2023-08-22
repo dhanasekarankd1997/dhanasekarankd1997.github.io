@@ -1,0 +1,59 @@
+/* .audio-container {
+    position: relative;
+    width: 400px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+.rectangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    background-color: #f5f5f5;
+    z-index: -1; 
+} */
+
+.audio-container {
+    width: 100%;
+}
+
+/* Apply custom styling to the container */
+.custom-audio {
+    /* Add your desired styles here, such as width, height, padding, etc. */
+    width: 100%;
+  }
+  
+  /* Customize the appearance of the audio player controls */
+  .custom-audio audio::-webkit-media-controls-panel,
+  .custom-audio audio::-webkit-media-controls-enclosure,
+  .custom-audio audio::-webkit-media-controls-play-button,
+  .custom-audio audio::-webkit-media-controls-timeline,
+  .custom-audio audio::-webkit-media-controls-current-time-display,
+  .custom-audio audio::-webkit-media-controls-time-remaining-display,
+  .custom-audio audio::-webkit-media-controls-seek-back-button,
+  .custom-audio audio::-webkit-media-controls-seek-forward-button,
+  .custom-audio audio::-webkit-media-controls-mute-button,
+  .custom-audio audio::-webkit-media-controls-volume-slider,
+  .custom-audio audio::-webkit-media-controls-volume-slider-container,
+  .custom-audio audio::-webkit-media-controls-fullscreen-button {
+    /* Add your custom styles here, like background color, font, etc. */
+  }
+
+
+  .custom-audio audio::-webkit-media-controls-enclosure {
+    border-radius: 0px;
+    background: transparent;
+  }
+
+  .custom-audio audio::-webkit-media-controls-play-button::before {
+    content: "\f04b";
+  }
+  .custom-audio audio::-webkit-media-controls-play-button {
+    font-family: "Font Awesome 6 Free";
+  }
+  
